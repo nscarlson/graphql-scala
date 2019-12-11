@@ -1,4 +1,4 @@
-package com.howtographql.scala.sangria
+package graphql.scala
 
 import akka.http.scaladsl.server.Route
 import sangria.parser.QueryParser

@@ -1,6 +1,6 @@
-package com.howtographql.scala.sangria
+package graphql.scala
 
-import com.howtographql.scala.sangria.models._
+import graphql.scala.models._
 
 import slick.jdbc.H2Profile.api._
 import scala.concurrent.duration._

@@ -1,4 +1,4 @@
-package com.howtographql.scala.sangria
+package graphql.scala
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
@@ -15,7 +15,7 @@ object Server extends App {
 
   val PORT = 4000
 
-  implicit val actorSystem = ActorSystem("graphql-server")
+  implicit val actorSystem  = ActorSystem("graphql-server")
   implicit val materializer = ActorMaterializer()
 
   import actorSystem.dispatcher

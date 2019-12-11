@@ -1,4 +1,4 @@
-package com.howtographql.scala.sangria
+package graphql.scala
 
 import sangria.schema.{Field, ListInputType, ListType, ObjectType}
 import sangria.schema.{ListType, ObjectType}

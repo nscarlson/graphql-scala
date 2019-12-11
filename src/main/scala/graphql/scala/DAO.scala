@@ -1,9 +1,9 @@
-package com.howtographql.scala.sangria
+package graphql.scala
 
 import DBSchema._
 import slick.jdbc.H2Profile.api._
 
-import com.howtographql.scala.sangria.models.Link
+import graphql.scala.models.Link
 import scala.concurrent.Future
 
 class DAO(db: Database) {
